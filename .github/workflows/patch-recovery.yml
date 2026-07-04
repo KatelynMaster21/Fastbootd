@@ -6,7 +6,8 @@ on:
       model:
         description: 'Your Model Number'
         required: true
-
+env:
+   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
       recovery_link:
         description: 'Enter the Direct Download Link (.img / .lz4 / .zip / .tar):'
         required: true   
